@@ -46,7 +46,7 @@ header nav ul {
 
 .texto {
   text-align: center;
-  margin-left: 112px;
+  margin-left: 170px;
   text-decoration: none;
   font-size: 200%;
   color: black;
@@ -83,6 +83,7 @@ article {
   width: 300px;
   height: 300px;
   display: block;
+  transition: width 2s, heigth 2s;
 }
 
 .contenedor_columnas {
@@ -106,16 +107,12 @@ article {
   height: auto;
   border: solid 10px rgb(162, 235, 181);
 }
-.contenedor{
-  width: 75vw;
-  max-width: 10000px;
-  min-width: 320px;
-  margin: auto;
-  }
+
 .imagen_inicio {
   width: 100%;
+  height: 100%;
   padding: 10px;
- 
+  align-items: center;
 }
 
 .icono {
@@ -258,5 +255,9 @@ img {
   border-radius: 0%;
 }
 
+section img:hover {
+  width: 500px;
+  height: 500px;
+}
 
 /*# sourceMappingURL=main.css.map */
